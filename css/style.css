@@ -1,7 +1,7 @@
 :root{
     --primary: #FFC272;
     --font-color: #0F0A0A;
-    --gradient: linear-gradient(to right bottom,#64C9A7,#27798F);
+    --gradient: linear-gradient(to right,#7bccb1,#20687b);
 }
 
 *{
@@ -10,6 +10,7 @@
     box-sizing: border-box;
     color: var(--font-color);
     font-family: 'Oxygen', sans-serif;
+    
 }
 
 .primary{
@@ -222,7 +223,7 @@ header{
     
 }
 .img1{
-    max-height: 392px;
+    max-height: 600px;
     max-width: 652px;
     margin: auto;
 }
@@ -276,6 +277,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button a{
+    color: black;
 }
 
 /*COMMENTS*/
@@ -432,7 +437,8 @@ div>label::after{
 
     /*BODY*/
     html{
-        background: #FFC174;
+        /* background: #FFC174; */
+        background: rgb(22, 21, 21);
     } 
     /* .top{
         width: 100px;

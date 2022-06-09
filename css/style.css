@@ -160,7 +160,7 @@ header {
 .presentation-buttons {
     width: 224px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .presentation-buttons button {
     width: 44px;
@@ -451,12 +451,12 @@ div > label::after {
         /*HEADER*/
         header {
             display: flex;
-            justify-content: start;
+            justify-content: center;
         }
         .header-list {
             display: inline-flex;
             gap: 40px;
-            margin-left: 337px;
+            margin-left: 100px;
             margin-right: 155px;
         }
         a {
@@ -470,9 +470,7 @@ div > label::after {
         .btn-curriculum {
             width: 250px;
         }
-        .btn-curriculum::before {
-            content: "DESCARGAR ";
-        }
+        
         /*SECTION PRESENTATION*/
         .presentation {
             display: flex;
@@ -583,7 +581,7 @@ div > label::after {
         .footer {
             flex-direction: row-reverse;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
         }
         .footer-text {
             display: flex;

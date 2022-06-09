@@ -28,9 +28,8 @@
             </div>
             
             <p class="body1"> Actualmente me desempeño en el puesto de soporte TI, con casi 5 años de experiencia en infraestructuras.<br> 
-                En mis tiempos libres me dedico al Frontend, apasionado por los retos y los nuevos desafios.<br>
-            A lo largo de mi carrera, 
-                he trabajado en proyectos retadores e increíbles.</p>
+                En mis tiempos libres me dedico a trabajar en proyectos personales tanto en Mobile como tambien en Frontend Web, apasionado por los retos y los nuevos desafios.<br>
+           </p>
 
 
               
@@ -143,21 +142,22 @@
         <h5 class="h5">HABLEMOS</h5>
         <p class="body1">Si está interesado en trabajar conmigo en su próximo proyecto,
              no dude en ponerse en contacto conmigo.</p>
-        <form class="form">    
+        <form class="form" action="https://formspree.io/f/mgedqaqp"
+        method="POST">    
             <div class="form-div">
                 <label for="">Nombre completo</label>
-                <input class="body1" type="text" placeholder="Juan">
+                <input name="name" class="body1" type="text" placeholder="Juan">
             </div>
             <div class="form-div">
                 <label for="">Correo electrónico</label>
-                <input class="body1" type="email" placeholder="Juan@gmail.com">
+                <input name="email" class="body1" type="email" placeholder="Juan@gmail.com">
             </div>
             <div class="form-div">
                 <label for="">Mensaje</label>
-                <textarea class="body1" name="" id="" cols="30" rows="6"></textarea>
+                <textarea name="message" class="body1" name="" id="" cols="30" rows="6"></textarea>
             </div>
             <div class="form-div">
-                <button class="btn form-btn" onclick="enviarForm()">ENVIAR MENSAJE</button>
+                <button type="submit" class="btn form-btn" >ENVIAR MENSAJE</button>
             </div>
         </form>    
     </section>
